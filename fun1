@@ -1,0 +1,37 @@
+# def greet():
+#     print("hello bibhu")
+    
+# print(greet())
+# a function is block of code that can be executed when ever we wamt
+"""_summary_
+there is some prebuild function
+1.print()
+2.len()
+3.input()
+    """
+# print("hello how are you?")
+#so how we can create a function
+#syntax
+#def function_name():
+    #function_body
+    
+# def hello():
+#     print("this is a hello function")
+# hello()
+# def sum(a,b):#what thing we accept is called parameters
+#     print(a)
+#     print(b)
+#     print("the sum of your number is ______",a+b)
+# sum(5,10) #what we provide to the paramerter is called argument
+# sum(100,200)
+#positional argument
+#default argument
+# def hello(name,age):#there key
+#     print(f"your name is  {name} and your age is {age}")
+# hello(age=20,name="bibhu") #keyword arguments
+
+
+def sum(a,b):
+    b=10
+    print(f"the sum of a+b is {a+b}")
+sum(20)

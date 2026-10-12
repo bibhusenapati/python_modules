@@ -1,0 +1,13 @@
+
+age,height,grade,name=input('enter your age, height, grade, and name separated by commas: ').split()
+print(age,height,grade,name)
+age=int(age)
+print(type(age))
+height=float(height)
+print(type(height))
+print(type(grade))
+print(type(name))
+print('your age is:', age)
+print('your height is:', height)
+print('your grade is:', grade)
+print('your name is:', name)
